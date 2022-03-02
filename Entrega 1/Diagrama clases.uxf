@@ -1,0 +1,64 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>486</x><y>0</y><w>210</w><h>120</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+Aplicacion
+--
+-Nombre();
+-Descripcion;
+-FechaInicio();
+-FechaFinalizacion();</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>486</x><y>220</y><w>210</w><h>100</h></coordinates><panel_attributes>Proyecto
+--
+-Asignar nombre: String Nombre()
+-Descripcion Proyecto: String Descripcion()
+-Fecha Incio: String DateS()
+-Fecha finalizacion: String DateF()
+-Participante inicial: String Dueño()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>506</x><y>620</y><w>210</w><h>190</h></coordinates><panel_attributes>Actividad
+--
+-id: Long
+_-ClassAttribute: Long_
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>126</x><y>680</y><w>210</w><h>190</h></coordinates><panel_attributes>Registro
+--
+-id: Long
+_-ClassAttribute: Long_
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>816</x><y>390</y><w>210</w><h>190</h></coordinates><panel_attributes>Cronometrar
+--
+-id: Long
+_-ClassAttribute: Long_
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>836</x><y>700</y><w>210</w><h>190</h></coordinates><panel_attributes>Reporte
+--
+-id: Long
+_-ClassAttribute: Long_
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>586</x><y>110</y><w>140</w><h>130</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;Participante inicial&gt;&gt;</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>150</x><y>220</y><w>210</w><h>190</h></coordinates><panel_attributes>Participante
+--
+-id: Long
+_-ClassAttribute: Long_
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>310</y><w>160</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element></diagram>
